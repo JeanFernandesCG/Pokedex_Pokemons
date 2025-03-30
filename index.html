@@ -13,6 +13,8 @@
       referrerpolicy="no-referrer"
     />
     <!--font ROBOTO-->
+    <link rel="icon" type="image/png" href="./img/favicon_io/favicon.ico" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,9 +32,13 @@
       <h1>POKEDÉX</h1>
 
       <ol id="pokemonList" class="pokemons"></ol>
+      <div class="pagination">
+        <button id="loadMoreButton" type="button">Mais</button>
+      </div>
     </section>
 
     <!--JS-->
+    <script src="./assets/js/pokemon-model.js"></script>
     <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/main.js"></script>
   </body>
